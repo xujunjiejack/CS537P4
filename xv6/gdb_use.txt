@@ -1,0 +1,6 @@
+run:
+make -j8 qemu-nox-gdb
+
+open a new terminal:
+go to xv6 directory
+run: gdb -x .gdbinit
