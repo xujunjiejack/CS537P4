@@ -2,7 +2,7 @@
 #include "stat.h"
 #include "user.h"
 #include "param.h"
-#include "spinlock.h"
+//#include "spinlock.h"
 // Memory allocator by Kernighan and Ritchie,
 // The C programming Language, 2nd ed.  Section 8.7.
 typedef long Align;
@@ -61,21 +61,20 @@ morecore(uint nu)
 
 struct spinlock lock = {0};
 
-//extern void spin_lock(struct spinlock* lk);
-//extern void spin_unlock(struct spinlock* lk);
-
 void*
 malloc(uint nbytes)
 {
+    spin_lock(&lock);
   Header *p, *prevp;
   uint nunits;
   nunits = (nbytes + sizeof(Header) - 1)/sizeof(Header) + 1;
-  spin_lock(&lock);
+
   if((prevp = freep) == 0){
     base.s.ptr = freep = prevp = &base;
     base.s.size = 0;
   }
   for(p = prevp->s.ptr; ; prevp = p, p = p->s.ptr){
+//      printf(1, "I'm here in 76");
     if(p->s.size >= nunits){
       if(p->s.size == nunits)
         prevp->s.ptr = p->s.ptr;
@@ -89,8 +88,11 @@ malloc(uint nbytes)
       return (void*)(p + 1);
     }
     if(p == freep)
-      if((p = morecore(nunits)) == 0)
-        return 0;
+      if((p = morecore(nunits)) == 0){
+//          printf(1, "I'm here in 91");
+          return 0;
+
+      }
   }
 
 }

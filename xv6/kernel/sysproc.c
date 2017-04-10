@@ -36,13 +36,6 @@ sys_clone(void){
     if (pid == -1)
         return -1;
 
-    // test whether fn, arg, and ustack has the right pointer
-    cprintf("fn: %p\n",fn);
-    cprintf("arg: %p\n", arg);
-    cprintf("ustack: %p\n", ustack);
-
-    // test later for stuff
-
     return pid;
 }
 

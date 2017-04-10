@@ -21,5 +21,8 @@ int
 queue_init(struct Queue* queue);
 int
 q_insert(struct Queue* queue, int pid);
+int
+q_free(struct Queue* queue);
 
+int q_pop(struct Queue* queue);
 #endif //QUEUE_QUEUE_H

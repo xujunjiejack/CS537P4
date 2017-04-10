@@ -19,6 +19,7 @@ USER_PROGS := \
 	clonetest\
 	locktest\
 	part2\
+	part4-cv
 
 USER_PROGS := $(addprefix user/, $(USER_PROGS))
 
@@ -28,7 +29,11 @@ USER_LIBS := \
 	usys.o\
 	printf.o\
 	umalloc.o\
-	spinlock.o
+	spinlock.o\
+	threads.o\
+	queue.o\
+	mutex.o\
+	condvar.o
 
 USER_LIBS := $(addprefix user/, $(USER_LIBS))
 

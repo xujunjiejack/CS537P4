@@ -131,6 +131,9 @@ main(int argc, char *argv[])
 	jtid1 = thread_join();
 	jtid2 = thread_join();
 
+	q_free(empty.q);
+	q_free(full.q);
+
 	if (!((jtid1 == ptid && jtid2 == ctid)
 	      || (jtid1 == ctid && jtid2 == ptid)))
 		printf(1, "oops, thread_join() returned unexpected PIDs\n");

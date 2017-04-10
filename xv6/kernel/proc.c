@@ -9,6 +9,7 @@
 struct {
   struct spinlock lock;
   struct proc proc[NPROC];
+  struct spinlock memory_lock;
 } ptable;
 
 static struct proc *initproc;
@@ -23,6 +24,7 @@ void
 pinit(void)
 {
   initlock(&ptable.lock, "ptable");
+  initlock(&ptable.memory_lock, "mlock");
 }
 
 // Look in the process table for an UNUSED proc.
@@ -110,7 +112,8 @@ int
 growproc(int n)
 {
   uint sz;
-  
+
+// acquire(&ptable.memory_lock);
   sz = proc->sz;
   if(n > 0){
     if((sz = allocuvm(proc->pgdir, sz, sz + n)) == 0)
@@ -120,6 +123,18 @@ growproc(int n)
       return -1;
   }
   proc->sz = sz;
+
+
+  /*if (proc->parent->pgdir == proc->pgdir)
+    proc->parent->sz = proc->sz;*/
+    acquire(&ptable.lock);
+    struct proc* p;
+    for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
+        if (p->pgdir == proc->pgdir){
+            p->sz = proc->sz;
+        }
+    }
+    release(&ptable.lock);
   switchuvm(proc);
   return 0;
 }
@@ -494,12 +509,14 @@ procdump(void)
 
 int clone(void (*fn)(void*), void* arg, void* ustack_base){
 
+
       int i, pid;
       struct proc *np;
 
       // Allocate process.
-      if((np = allocproc()) == 0)
-        return -1;
+      if((np = allocproc()) == 0){
+          cprintf("Clone leaving after allocproc");
+          return -1;}
 
       // Point the new_process to the old_process pgdir
       np->pgdir = proc->pgdir;
@@ -508,16 +525,13 @@ int clone(void (*fn)(void*), void* arg, void* ustack_base){
       *np->tf = *proc->tf;
 
       // Clear %eax so that clone returns 0 in the child.
+      pid = np->pid;
       np->tf->eax = 0;
 
       for(i = 0; i < NOFILE; i++)
         if(proc->ofile[i])
           np->ofile[i] = filedup(proc->ofile[i]);
       np->cwd = idup(proc->cwd);
-
-      pid = np->pid;
-      np->state = RUNNABLE;
-      safestrcpy(np->name, proc->name, sizeof(proc->name));
 
     np->ustack = (uint) ustack_base;
 
@@ -553,8 +567,10 @@ int clone(void (*fn)(void*), void* arg, void* ustack_base){
     // prepare assignment
     np->tf->esp= sp;
     np->tf->eip=(uint)fn;
-  return pid;
 
+    np->state = RUNNABLE;
+    safestrcpy(np->name, proc->name, sizeof(proc->name));
+    return pid;
 }
 
 void
@@ -563,6 +579,7 @@ park(void){
   proc->is_parked = 1;
   if (proc->set_park == 1){
     sleep( (void*) proc->pid, &ptable.lock);
+    proc->is_parked = 0;
     return;
   }
   return;
@@ -571,21 +588,15 @@ park(void){
 int
 unpark(int pid){
   // TODO: under what circumstance that unpark can fail. Already unparked?
-  proc->is_parked = 0;
-
-  if (!proc->is_parked){
-    // You can't unpark a thread that has already been unparked.
-    return -1;
-  }
-
   struct proc *p;
-  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
-    if (p->pgdir == proc->pgdir && p->is_thread != 0 && p->set_park == 1){
-      p->set_park = 0;
-      break;
-    }
+  acquire(&ptable.lock);
+  for(p = ptable.proc; p < &ptable.proc[NPROC]; p++) {
+      if (p->pgdir == proc->pgdir && p->is_thread != 0 && p->set_park == 1) {
+          p->set_park = 0;
+          break;
+      }
   }
-
+  release(&ptable.lock);
   wakeup((void*)pid);
   return 0;
 }

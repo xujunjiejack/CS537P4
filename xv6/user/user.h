@@ -2,7 +2,9 @@
 #define _USER_H_
 
 #include "spinlock.h"
-
+#include "queue.h"
+#include "mutex.h"
+#include "condvar.h"
 struct stat;
 
 // system calls
@@ -29,6 +31,9 @@ int sleep(int);
 int uptime(void);
 int clone(void (*fn)(void*), void* arg, void* ustack);
 int join(void** ustack);
+void park(void);
+int setpark(void);
+int unpark(int pid);
 
 // user library functions (ulib.c)
 int stat(char*, struct stat*);

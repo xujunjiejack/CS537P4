@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CS537P4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Desktop\;CMake Files\..\..\Desktop\Development Tool\;CMake Files\..\..\Desktop\Development Tool\apps\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\;CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Internal\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS537P4">
+				<Option output="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/CS537P4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS537P4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CS537P4/fast">
+				<Option output="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/CS537P4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS537P4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/u/j/u/junjie/CLionProjects/CS537P4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/main.c">
+			<Option target="CS537P4"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/xv6/user/clonetest.c">
+			<Option target="CS537P4"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/xv6/user/locktest.c">
+			<Option target="CS537P4"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/xv6/user/spinlock.c">
+			<Option target="CS537P4"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/xv6/user/spinlock.h">
+			<Option target="CS537P4"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeUnixFindMake.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompilerId.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCompilerIdDetection.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompilerId.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCompilerIdDetection.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeParseArguments.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeFindCodeBlocks.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/ProcessorCount.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/ADSP-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/ARMCC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/AppleClang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Borland-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Bruce-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Compaq-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Cray-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Embarcadero-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Fujitsu-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GHS-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/HP-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IAR-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Intel-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/MIPSpro-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/MSVC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/PGI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/PathScale-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/SCO-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/SDCC-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/SunPro-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/TI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Watcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/XL-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/zOS-C-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/ADSP-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/ARMCC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/AppleClang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Borland-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Clang-DetermineCompilerInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Cray-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Embarcadero-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Fujitsu-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GHS-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/HP-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IAR-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Intel-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/MIPSpro-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/MSVC-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/PGI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/PathScale-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/SCO-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/TI-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/Watcom-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/XL-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX-FeatureTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Compiler\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/UnixPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU-C.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU-CXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Platform/Linux-GNU.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Platform\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Internal\"/>
+		</Unit>
+		<Unit filename="/u/j/u/junjie/CLionProjects/CS537P4/../../Desktop/Development Tool/apps/CLion/ch-0/163.10154.43/bin/cmake/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake">
+			<Option virtualFolder="CMake Files\..\..\Desktop\Development Tool\apps\CLion\ch-0\163.10154.43\bin\cmake\share\cmake-3.6\Modules\Internal\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

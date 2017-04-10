@@ -3,7 +3,8 @@
 #define CONDVAR_H
 
 struct condvar {
-	/* fill this in! */
+    int guard;
+    struct Queue* q;
 };
 
 void cv_init(struct condvar* cv);

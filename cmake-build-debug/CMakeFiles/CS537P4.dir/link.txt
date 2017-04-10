@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/CS537P4.dir/main.c.o CMakeFiles/CS537P4.dir/xv6/user/clonetest.c.o CMakeFiles/CS537P4.dir/xv6/user/locktest.c.o CMakeFiles/CS537P4.dir/xv6/user/spinlock.c.o  -o CS537P4 

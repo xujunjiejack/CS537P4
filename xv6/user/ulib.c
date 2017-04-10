@@ -3,6 +3,8 @@
 #include "fcntl.h"
 #include "user.h"
 #include "x86.h"
+#include "threads.h"
+
 
 char*
 strcpy(char *s, char *t)
@@ -104,32 +106,3 @@ memmove(void *vdst, void *vsrc, int n)
   return vdst;
 }
 
-int thread_create(void (*fn)(void*), void* arg){
-  char* ustack = malloc(4096);
-  if (ustack == NULL){
-    return -1;
-  }
-
-  return clone(fn, arg, (void*)ustack);
-
-}
-
-int thread_join(void){
-  void* ustack;
-  int pid = join(&ustack);
-  free(ustack);
-
-  return pid;
-}
-/*
-void spin_init(struct spinlock* lk){
-    lk->locked = 0;
-}
-
-void spin_lock(struct spinlock* lk){
-    while(xchg(&lk->locked, 1) != 0);
-}
-
-void spin_unlock(struct spinlock* lk){
-    lk->locked = 0;
-}*/

@@ -18,7 +18,7 @@ static struct node* new_node(int val)
 {
 	struct node* n = malloc(sizeof(*n));
 	if (!n) {
-		printf(1, "oops, malloc failed\n");
+		printf(1, "oops, malloc in new node failed\n");
 		exit();
 	}
 	n->value = val;
@@ -26,8 +26,11 @@ static struct node* new_node(int val)
 	return n;
 }
 
+
+
 struct node* head = NULL;
 struct spinlock lock;
+struct mutex* mtx;
 
 static void threadfunc(void* arg)
 {
@@ -37,12 +40,13 @@ static void threadfunc(void* arg)
 	for (i = 0; i < (int)arg; i++) {
 		n = new_node(i);
 
-		spin_lock(&lock);
+//		spin_lock(&lock);
+		mutex_lock(mtx);
 		n->next = head;
 		head = n;
-		spin_unlock(&lock);
+		mutex_unlock(mtx);
+//		spin_unlock(&lock);
 	}
-
 	exit();
 }
 
@@ -69,12 +73,14 @@ main(int argc, char *argv[])
 		exit();
 	}
 
-	spin_init(&lock);
+    spin_init(&lock);
+    mtx = malloc(sizeof(struct mutex));
+    mutex_init(mtx);
 
 	for (i = 0; i < numthreads; i++) {
 		pids[i] = thread_create(threadfunc, (void*)count);
 		if (pids[i] < 1) {
-			printf(1, "oops, thread_create() failed\n");
+			printf(1, "oops, thread_create() failed %d\n", pids[i]);
 			exit();
 		}
 	}
@@ -108,6 +114,6 @@ main(int argc, char *argv[])
 		printf(1, "oops, list didn't add up to right value\n");
 		exit();
 	}
-
+	//free(mtx);
 	exit();
 }
